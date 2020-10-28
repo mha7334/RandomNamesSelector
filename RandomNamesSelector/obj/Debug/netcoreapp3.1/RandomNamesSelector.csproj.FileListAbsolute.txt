@@ -1,0 +1,15 @@
+C:\repo\RandomNamesSelector\RandomNamesSelector\bin\Debug\netcoreapp3.1\RandomNamesSelector.exe
+C:\repo\RandomNamesSelector\RandomNamesSelector\bin\Debug\netcoreapp3.1\RandomNamesSelector.deps.json
+C:\repo\RandomNamesSelector\RandomNamesSelector\bin\Debug\netcoreapp3.1\RandomNamesSelector.runtimeconfig.json
+C:\repo\RandomNamesSelector\RandomNamesSelector\bin\Debug\netcoreapp3.1\RandomNamesSelector.runtimeconfig.dev.json
+C:\repo\RandomNamesSelector\RandomNamesSelector\bin\Debug\netcoreapp3.1\RandomNamesSelector.dll
+C:\repo\RandomNamesSelector\RandomNamesSelector\bin\Debug\netcoreapp3.1\RandomNamesSelector.pdb
+C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.csprojAssemblyReference.cache
+C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.csproj.GenerateResource.cache
+C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.AssemblyInfoInputs.cache
+C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.AssemblyInfo.cs
+C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.csproj.CoreCompileInputs.cache
+C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.dll
+C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.pdb
+C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.genruntimeconfig.cache
+C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.Main.resources
