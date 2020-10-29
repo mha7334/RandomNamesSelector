@@ -13,3 +13,4 @@ C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNa
 C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.pdb
 C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.genruntimeconfig.cache
 C:\repo\RandomNamesSelector\RandomNamesSelector\obj\Debug\netcoreapp3.1\RandomNamesSelector.Main.resources
+C:\repo\RandomNamesSelector\RandomNamesSelector\bin\Debug\netcoreapp3.1\members.txt

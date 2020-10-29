@@ -132,7 +132,7 @@
             this.btnResetResult.TabIndex = 3;
             this.btnResetResult.Text = "Reset";
             this.btnResetResult.UseVisualStyleBackColor = true;
-            this.btnResetResult.Click += new System.EventHandler(this.btnResetResult_Click);
+            this.btnResetResult.Click += new System.EventHandler(this.btnResetResult_Click_1);
             // 
             // btnResetNames
             // 

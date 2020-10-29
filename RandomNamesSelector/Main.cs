@@ -21,22 +21,30 @@ namespace RandomNamesSelector
 
         private void LoadAllMembers()
         {
+            
             List<string> membersList = new List<string>();
+            string[] lines = System.IO.File.ReadAllLines(@"members.txt");
 
-            membersList.Add("Muhammad Nadeem");
-            membersList.Add("Sajid Butt");
-            membersList.Add("Sajid Tamboli");
-            membersList.Add("Nauman Iftikhar");
-            membersList.Add("Adnan Mehmood");
-            membersList.Add("Zia Ur Rehman");
-            membersList.Add("Muhammad Arshad");
-            membersList.Add("Jawad Ahmad");
-            membersList.Add("Sibtan");
-            membersList.Add("Haresh");
-            membersList.Add("Ahmad Sabri");
-            membersList.Add("Yasin");
-            membersList.Add("Mudassar");
-            membersList.Add("Wasim");
+            foreach (string line in lines)
+            {
+                membersList.Add(line);
+            }
+
+
+            //membersList.Add("Muhammad Nadeem");
+            //membersList.Add("Sajid Butt");
+            //membersList.Add("Sajid Tamboli");
+            //membersList.Add("Nauman Iftikhar");
+            //membersList.Add("Adnan Mehmood");
+            //membersList.Add("Zia Ur Rehman");
+            //membersList.Add("Muhammad Arshad");
+            //membersList.Add("Jawad");
+            //membersList.Add("Sibtan");
+            //membersList.Add("Haresh");
+            //membersList.Add("Ahmad Sabri");
+            //membersList.Add("Yasin");
+            //membersList.Add("Mudassar");
+            //membersList.Add("Wasim");
 
             foreach (var member in membersList)
             {
@@ -46,7 +54,8 @@ namespace RandomNamesSelector
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            lstNames.Items.Add(txtName.Text);
+            if(!string.IsNullOrEmpty(txtName.Text))
+                lstNames.Items.Add(txtName.Text);
         }
 
         private void btnResetNames_Click(object sender, EventArgs e)
@@ -54,10 +63,6 @@ namespace RandomNamesSelector
             lstNames.Items.Clear();
         }
 
-        private void btnResetResult_Click(object sender, EventArgs e)
-        {
-            lstNames.Items.Clear();
-        }
 
         private void Remove(object sender, EventArgs e)
         {
@@ -70,6 +75,15 @@ namespace RandomNamesSelector
 
         private void btnSelect_Click(object sender, EventArgs e)
         {
+             
+            var success = int.TryParse(txtHowmany.Text, out int res);
+
+            if(!success)
+            {
+                MessageBox.Show(@"Should be an integer");
+                return;
+            }
+
             lstResult.Items.Clear();
             List<string> list = new List<string>();
 
@@ -95,6 +109,11 @@ namespace RandomNamesSelector
         {
             lstNames.Items.Clear();
             LoadAllMembers();
+        }
+
+        private void btnResetResult_Click_1(object sender, EventArgs e)
+        {
+            lstResult.Items.Clear();
         }
     }
 }
